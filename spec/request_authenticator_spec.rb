@@ -1,4 +1,5 @@
 require "spec_helper"
+require "time"
 
 describe Tinplate::RequestAuthenticator do
   let(:date)  { Time.parse("2016-02-17T15:35:02-06:00") }
